@@ -4,23 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e30ffbdd347a692e751c100468bce52d",
+    "content-hash": "79fc95c2623df6ac190da5a2e814d043",
     "packages": [
-        {
-            "name": "bower-asset/bootstrap",
-            "version": "v5.3.0-alpha1",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:twbs/bootstrap.git",
-                "reference": "cf9454caa00872899215603e5e036d9a824b1b11"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/cf9454caa00872899215603e5e036d9a824b1b11",
-                "reference": "cf9454caa00872899215603e5e036d9a824b1b11"
-            },
-            "type": "bower-asset"
-        },
         {
             "name": "bower-asset/inputmask",
             "version": "5.x-dev",
@@ -1284,6 +1269,56 @@
             "time": "2025-07-15T11:30:57+00:00"
         },
         {
+            "name": "twbs/bootstrap",
+            "version": "v5.3.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "25aa8cc0b32f0d1a54be575347e6d84b70b1acd7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/25aa8cc0b32f0d1a54be575347e6d84b70b1acd7",
+                "reference": "25aa8cc0b32f0d1a54be575347e6d84b70b1acd7",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                },
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/twbs/bootstrap/issues",
+                "source": "https://github.com/twbs/bootstrap/tree/v5.3.8"
+            },
+            "time": "2025-08-26T02:01:02+00:00"
+        },
+        {
             "name": "yiisoft/yii2",
             "version": "dev-master",
             "source": {
@@ -1411,18 +1446,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap5.git",
-                "reference": "280e7c78767fed3938ac9dfef39ae59ac8f4adcb"
+                "reference": "23675f617ee3c86cf3e65a31a6afbc75e13028cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap5/zipball/280e7c78767fed3938ac9dfef39ae59ac8f4adcb",
-                "reference": "280e7c78767fed3938ac9dfef39ae59ac8f4adcb",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap5/zipball/23675f617ee3c86cf3e65a31a6afbc75e13028cb",
+                "reference": "23675f617ee3c86cf3e65a31a6afbc75e13028cb",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/bootstrap": "^5.2.3",
                 "ext-json": "*",
                 "php": ">=7.3",
+                "twbs/bootstrap": "^5.2.3",
                 "yiisoft/yii2": "^2.0.42"
             },
             "require-dev": {
@@ -1486,7 +1521,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-10-10T19:58:43+00:00"
+            "time": "2025-12-03T13:29:11+00:00"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -1648,12 +1683,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Gherkin.git",
-                "reference": "d9957c77fe70bae12201a8f90ae349d6b2dceb7f"
+                "reference": "ec034ab52239c8e97d0305cd1da25cc071012c36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/d9957c77fe70bae12201a8f90ae349d6b2dceb7f",
-                "reference": "d9957c77fe70bae12201a8f90ae349d6b2dceb7f",
+                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/ec034ab52239c8e97d0305cd1da25cc071012c36",
+                "reference": "ec034ab52239c8e97d0305cd1da25cc071012c36",
                 "shasum": ""
             },
             "require": {
@@ -1710,7 +1745,21 @@
                 "issues": "https://github.com/Behat/Gherkin/issues",
                 "source": "https://github.com/Behat/Gherkin/tree/master"
             },
-            "time": "2025-11-26T09:15:19+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/acoulton",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/carlos-granados",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/stof",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-12-02T10:23:15+00:00"
         },
         {
             "name": "codeception/codeception",
@@ -2573,12 +2622,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "24fb8443fca58946b9dcfcf96d4193175be59ef4"
+                "reference": "e4810261db718545ed1a64d021dc9ecba3dbd68d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/24fb8443fca58946b9dcfcf96d4193175be59ef4",
-                "reference": "24fb8443fca58946b9dcfcf96d4193175be59ef4",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/e4810261db718545ed1a64d021dc9ecba3dbd68d",
+                "reference": "e4810261db718545ed1a64d021dc9ecba3dbd68d",
                 "shasum": ""
             },
             "require": {
@@ -2624,7 +2673,7 @@
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
                 "source": "https://github.com/nikic/PHP-Parser/tree/master"
             },
-            "time": "2025-11-29T15:12:44+00:00"
+            "time": "2025-11-30T16:41:08+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -3175,12 +3224,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "5bbaa6fec73ca99e5e86a44728cc8f517ffda878"
+                "reference": "56ada9bfc043c3ea80c3ccc214b03003e65f287a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/5bbaa6fec73ca99e5e86a44728cc8f517ffda878",
-                "reference": "5bbaa6fec73ca99e5e86a44728cc8f517ffda878",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/56ada9bfc043c3ea80c3ccc214b03003e65f287a",
+                "reference": "56ada9bfc043c3ea80c3ccc214b03003e65f287a",
                 "shasum": ""
             },
             "require": {
@@ -3276,7 +3325,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-11-21T10:46:22+00:00"
+            "time": "2025-12-04T14:21:36+00:00"
         },
         {
             "name": "psr/http-factory",
@@ -3393,12 +3442,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "38953bc71491c838fcb6ebcbdc41ab7483cd549c"
+                "reference": "f17a026dadf20a87cd38a4c1074493fb3e8d7000"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/38953bc71491c838fcb6ebcbdc41ab7483cd549c",
-                "reference": "38953bc71491c838fcb6ebcbdc41ab7483cd549c",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/f17a026dadf20a87cd38a4c1074493fb3e8d7000",
+                "reference": "f17a026dadf20a87cd38a4c1074493fb3e8d7000",
                 "shasum": ""
             },
             "require": {
@@ -3406,8 +3455,8 @@
                 "ext-tokenizer": "*",
                 "nikic/php-parser": "^5.0 || ^4.0",
                 "php": "^8.0 || ^7.4",
-                "symfony/console": "^7.0 || ^6.0 || ^5.0 || ^4.0 || ^3.4",
-                "symfony/var-dumper": "^7.0 || ^6.0 || ^5.0 || ^4.0 || ^3.4"
+                "symfony/console": "^8.0 || ^7.0 || ^6.0 || ^5.0 || ^4.0 || ^3.4",
+                "symfony/var-dumper": "^8.0 || ^7.0 || ^6.0 || ^5.0 || ^4.0 || ^3.4"
             },
             "conflict": {
                 "symfony/console": "4.4.37 || 5.3.14 || 5.3.15 || 5.4.3 || 5.4.4 || 6.0.3 || 6.0.4"
@@ -3463,9 +3512,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.12.15"
+                "source": "https://github.com/bobthecow/psysh/tree/main"
             },
-            "time": "2025-11-28T00:00:14+00:00"
+            "time": "2025-12-03T12:19:15+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -5703,13 +5752,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.1.0",
-        "ext-memcached": "*",
-        "ext-memcache": "*"
+        "php": ">=8.1.0"
     },
-    "platform-dev": {
-        "ext-memcached": "*",
-        "ext-memcache": "*"
-    },
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
